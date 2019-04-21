@@ -5,13 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class MoveScene : MonoBehaviour
 {
-    public int sceneChoose;
     void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(sceneChoose);
-    }
-    public void playButton()
-    {
-        SceneManager.LoadScene(sceneChoose);
+        SceneManager.LoadScene("Ending");
     }
 }
