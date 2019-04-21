@@ -15,4 +15,14 @@ public class MainMenu : MonoBehaviour
         Debug.Log("QUIT!");
         Application.Quit();
     }
+
+    public void Credit()
+    {
+        SceneManager.LoadScene("CreditScene");
+    }
+
+    public void Menu()
+    {
+        SceneManager.LoadScene("Main_Menu");
+    }
 }

@@ -7,13 +7,19 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Main_Menu.unity
+    guid: eb17dff97441ec14295f25d32484a5f1
+  - enabled: 1
+    path: Assets/Scenes/CreditScene.unity
     guid: c83a32612145fbc4caa74b2fe4e043fe
   - enabled: 1
     path: Assets/Scenes/Maze Scene.unity
     guid: c08879645ca69044da7e4b3b2797bb4e
   - enabled: 1
     path: Assets/Scenes/Maze Scene 2.unity
-    guid: 6641627b7d9769d4a9bf5d2071bcc91c
+    guid: 6204072ab97ad934db272b29b67d2e01
+  - enabled: 1
+    path: Assets/Scenes/Maze Scene 3.unity
+    guid: 93b8b76488642bc478fb0fdcfbb460b0
   - enabled: 1
     path: Assets/Scenes/Ending.unity
     guid: 6b9c2fce7b444054892368a07b1c9450
