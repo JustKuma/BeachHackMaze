@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class MoveScene : MonoBehaviour
 {
+    public int num;
     void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene("Ending");
+        SceneManager.LoadScene(num);
     }
 }
